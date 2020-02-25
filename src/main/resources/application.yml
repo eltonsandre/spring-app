@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/useraccess
+    username: useraccess
+    password: 1234
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+  output.ansi.enabled: ALWAYS
