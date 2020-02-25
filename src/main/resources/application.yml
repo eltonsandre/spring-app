@@ -14,3 +14,12 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
 
   output.ansi.enabled: ALWAYS
+
+---
+server:
+  port: 80
+spring:
+  profiles: docker
+  datasource:
+    username: root
+    url: jdbc:mysql://database-mysql:3306/useraccess?useSSL=false
