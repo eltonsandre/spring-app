@@ -1,6 +1,6 @@
 # Exemplo de docker-compose com projeto spring acessando database MySQL
 
-## Run:
+## Run with docker-compose:
 ```
 ./gradlew build;docker-compose up --build 
 ```
